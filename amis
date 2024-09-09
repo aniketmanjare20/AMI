@@ -9,8 +9,8 @@ connect and go to cd-----
 
 rpmquery httpd
 yum install httpd -y
-cd /var/wwww/html/
-echo "This is My Dev-server on cloud "
+cd /var/www/html/
+echo "This is My Dev-server on cloud " >index.html
 cat index.html
 systemctl start httpd
 
